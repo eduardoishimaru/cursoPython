@@ -49,6 +49,6 @@ while True:
         letras_acertadas = ''
         numero_tentativas = 0
         continuar = input(f'Deseja continuar?[S/N]')
-        continuar = continuar.lower().startswith('s')
+        continuar = continuar.lower().startswith('n')
         if continuar:
             break
